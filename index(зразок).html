@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Goldfish</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <h1>GoldFish</h1>
+        <img src="image/logo.jpg" alt="логотип сторінки"><br>
+        <img src="image/корзина.jpg" alt="корзина для покупок"><br>
+        <p>ВХІД:</p>
+            <form action="action_page.php">
+               <label for="E-mail">E-mail:</label>
+               <input type="email" name="email" id="E-mail" placeholder="E-mail">
+               <label for="password">E-mail:</label>
+              <input type="password" name="psw" id="password" placeholder="password">
+              <input type="submit">
+              <input type="checkbox" name="vehicle1" value="запам'ятати">Запам'ятати
+            </form>
+    </header><br>
+    
+    <nav>
+        <form action="index(головна).html">
+          <input type="submit" value="Головна" />
+        </form><br>
+        <form action="index(магазин).html">
+          <input type="submit" value="Магазин" />
+        </form><br>
+        <form class="form-wrapper">
+          <input type="text" id="search" placeholder="Пошук по сайту..." required>
+          <input type="submit" value="пошук" id="submit">
+        </form>
+    </nav><br>
+    
+    <nav>
+        <form action="index(новинки).html">
+          <input type="submit" value="новинки" />
+        </form><br>
+        <form action="index(карпова).html">
+          <input type="submit" value="карпова ловля" />
+        </form><br>
+        <video src="video/fish.mp4" controls="controls"></video>
+        
+        
+    </nav>
+</body>
+</html>
