@@ -1,49 +1,52 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Goldfish</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
     <header>
         <h1>GoldFish</h1>
         <img src="image/logo.jpg" alt="логотип сторінки"><br>
         <img src="image/корзина.jpg" alt="корзина для покупок"><br>
         <p>ВХІД:</p>
-            <form action="action_page.php">
-               <label for="E-mail">E-mail:</label>
-               <input type="email" name="email" id="E-mail" placeholder="E-mail">
-               <label for="password">E-mail:</label>
-              <input type="password" name="psw" id="password" placeholder="password">
-              <input type="submit">
-              <input type="checkbox" name="vehicle1" value="запам'ятати">Запам'ятати
-            </form>
+        <form action="action_page.php">
+            <label for="E-mail">E-mail:</label>
+            <input type="email" name="email" id="E-mail" placeholder="E-mail">
+            <label for="password">E-mail:</label>
+            <input type="password" name="psw" id="password" placeholder="password">
+            <input type="submit">
+            <input type="checkbox" name="vehicle1" value="запам'ятати">Запам'ятати
+        </form>
     </header><br>
-    
+
     <nav>
-        <form action="index(main).html">
-          <input type="submit" value="Головна" />
-        </form><br>
-        <form action="index(shop).html">
-          <input type="submit" value="Магазин" />
-        </form><br>
+        <ul class="toolbar">
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="shop.html">Магазин</a></li>
+        </ul>
         <form class="form-wrapper">
-          <input type="text" id="search" placeholder="Пошук по сайту..." required>
-          <input type="submit" value="пошук" id="submit">
+            <input type="text" id="search" placeholder="Пошук по сайту..." required>
+            <input type="submit" value="пошук" id="submit">
         </form>
     </nav><br>
-    
+
     <nav>
-        <form action="index(new).html">
-          <input type="submit" value="новинки" />
-        </form><br>
-        <form action="index(carp).html">
-          <input type="submit" value="карпова ловля" />
-        </form><br>
-        <video src="video/fish.mp4" controls="controls"></video>
-        
-        
+        <ul class="toolbar1">
+            <li><a href="new.html">Новинки</a></li>
+            <li><a href="carp.html">Карпова ловля</a></li>
+        </ul><br>
+        <video src="video/fish.mp4" controls="controls"></video><br>
+        <p>Выберите дату: <input type="date" name="calendar">
+            <input type="submit" value="Отправить"></p>
     </nav>
+    
+    <article>
+        <p><h2>Новинки</h2></p>
+    </article>
 </body>
+
 </html>
