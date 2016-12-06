@@ -37,7 +37,7 @@
 
     <nav>
         <ul class="toolbar1">
-            <li><a href="new.html">Новинки</a></li>
+            <li><a class="active" href="new.html">Новинки</a></li>
             <li><a href="carp.html">Карпова ловля</a></li>
         </ul><br>
         <video src="video/fish.mp4" controls="controls"></video><br>
@@ -51,7 +51,29 @@
         <h2>Карушка карпова професійна daiwa 6000</h2>
         <p>Ця висококласна елітна котушка заслужено є абсолютним об'єктом бажань для багатьох спортсменів і любителів коропового лову. Незвичайно легкий корпус цієї котушки виконаний з магнезиту, найсучаснішого матеріалу , який використовується у виробництві
             котушок. Полегшена шпуля збільшеного діаметру в комплексі з бездоганною укладанням волосіні забезпечують максимально далекі кидки оснастки.</p>
-        
+        <form action="action_page.php">
+            <label for="Кількість товару">Кількість товару:</label><br>
+              <input type="text" name="buy" placeholder="введіть к-кість товару"><br>
+            <label for="П.І.Б.">П.І.Б.:</label><br>
+              <input type="text" name="PIB" placeholder="Іванов Іван Іванович"><br>
+            <label for="Контактний номер">Контактний номер:</label><br>
+              <input type="text" name="Контактний номер" placeholder="0966302087"> <br>
+            <label for="post">Вид доставки:</label><br>
+            <select name="post"> 
+              <option value="Нова Пошта">Нова Пошта</option>
+              <option value="Intime">Intime</option>
+              <option value="Наручно">Наручно</option>
+            </select><br>
+              <label for="pay">Вид оплати:</label><br>
+              <input type="radio" name="gender" value="Готівкою" checked> Готівкою<br>
+              <input type="radio" name="gender" value="Карткою"> Картко<br>
+              <input type="radio" name="gender" value="По перерахунку"> По перерахунку<br>
+            <label for="Ваша Адреса">Ваша Адреса:</label><br>
+              <input type="text" name="buy" placeholder="Місто"><br>
+              <input type="text" name="PIB" placeholder="вулиця"><br>
+              <input type="text" name="Контактний номер" placeholder="будинок/квартира"> <br><br>
+            <input type="submit" value="Купити">
+        </form>
     </article>
     <footer>
         <h2>Сторінкив соцмережах</h2>
