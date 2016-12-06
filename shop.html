@@ -1,10 +1,81 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Goldfish</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1><strong>GoldFish</strong></h1>
+        <img class="goldfeesh" src="image/logo.jpg" alt="логотип сторінки"><br>
+        <img src="image/корзина.jpg" alt="корзина для покупок"><br>
+        <p>ВХІД:</p>
+        <form action="action_page.php">
+            <label for="E-mail">E-mail:</label>
+            <input type="email" name="email" id="E-mail" placeholder="E-mail">
+            <label for="password">E-mail:</label>
+            <input type="password" name="psw" id="password" placeholder="password">
+            <input type="submit">
+            <input type="checkbox" name="vehicle1" value="запам'ятати">Запам'ятати
+        </form>
+    </header><br>
+
+    <nav>
+        <ul class="toolbar">
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="shop.html">Магазин</a></li>
+        </ul>
+        <form class="form-wrapper">
+            <input type="text" id="search" placeholder="Пошук по сайту..." required>
+            <input type="submit" value="пошук" id="submit">
+        </form>
+    </nav><br>
+
+    <nav>
+        <ul class="toolbar1">
+            <li><a href="new.html">Новинки</a></li>
+            <li><a href="carp.html">Карпова ловля</a></li>
+        </ul><br>
+        <video src="video/fish.mp4" controls="controls"></video><br>
+        <p>Выберите дату: <input type="date" name="calendar">
+            <input type="submit" value="Отправить"></p>
+    </nav>
+
+    <article>
+        <h2>Новинки</h2>
+        <ul>
+            <li><img src="image/costume1.jpg" alt="Костюм зимовий Nordics TERMO MAX">Костюм зимний Nordics TERMO MAX</li>
+            <li><img src="image/costume2.jpg" alt="Зимний костюм Norfin ACTIVE (-20°)">Зимовий костюм Norfin ACTIVE (-20°)</li>
+            <li><img src="image/costume3.jpg" alt="Костюм Daiwa DW-3205 Rainmax Winter Suit">Костюм Daiwa DW-3205 Rainmax Winter Suit</li>
+            <li><img src="image/costume4.jpg" alt="Костюм ForMax GREEN RAINSUIT">Костюм ForMax GREEN RAINSUIT</li>
+            <li><img src="image/costume5.jpg" alt="Костюм всесезонный Norfin Pro Light Beige">Костюм всесезонний Norfin Pro Light Beige</li>
+        </ul>
+        
+        <img src="image/costume1.jpg" alt="Новинки"><br>
+           <a class="newprod" title="newprod" href="new.html">Новинки</a><br>
+           <a class="newprod" href="new.html">Купити</a><br>
+        <img src="image/product/daiwakat.jpg" alt="Карпова ловля"><br>
+           <a class="carpfish" title="carpfish" href="carp.html">Карпова ловля</a><br>
+           <a class="carpfish" href="carp.html">Купити</a>
+    </article>
+    <footer>
+        <h2>Сторінкив соцмережах</h2>
+        <a href="https://vk.com/"><img src="image/vft/vk.png" alt="Вконтакті"></a><br>
+        <a href="https://www.facebook.com/"><img src="image/vft/facebook.png" alt="Фейсбук"></a><br>
+        <a href="https://twitter.com/"><img src="image/vft/twitter.png" alt="Твіттер"></a>
+        <p>Наші контакти </p>
+        <p> м.Львів вул.Чигиринська,13 кв.80 </p>
+        <p> (096) 630-20-87 </p>
+        <p> vipsanyok@mail.ru </p>
+        <p> Пн-Пт с 9-00 до 18-00 </p>
+        <p> Сб. с 9-00 до 17-00 </p>
+        <p> Нд-вихідний </p>
+        <iframe src=""></iframe>
+    </footer>
 </body>
+
 </html>

@@ -1,10 +1,122 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Goldfish</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1><strong>GoldFish</strong></h1>
+        <img class="goldfeesh" src="image/logo.jpg" alt="логотип сторінки"><br>
+        <img src="image/корзина.jpg" alt="корзина для покупок"><br>
+        <p>ВХІД:</p>
+        <form action="action_page.php">
+            <label for="E-mail">E-mail:</label>
+            <input type="email" name="email" id="E-mail" placeholder="E-mail">
+            <label for="password">E-mail:</label>
+            <input type="password" name="psw" id="password" placeholder="password">
+            <input type="submit">
+            <input type="checkbox" name="vehicle1" value="запам'ятати">Запам'ятати
+        </form>
+    </header><br>
+
+    <nav>
+        <ul class="toolbar">
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="shop.html">Магазин</a></li>
+        </ul>
+        <form class="form-wrapper">
+            <input type="text" id="search" placeholder="Пошук по сайту..." required>
+            <input type="submit" value="пошук" id="submit">
+        </form>
+    </nav><br>
+
+    <nav>
+        <ul class="toolbar1">
+            <li><a href="new.html">Новинки</a></li>
+            <li><a href="carp.html">Карпова ловля</a></li>
+        </ul><br>
+        <video src="video/fish.mp4" controls="controls"></video><br>
+        <p>Выберите дату: <input type="date" name="calendar">
+            <input type="submit" value="Отправить"></p>
+    </nav>
+
+    <article>
+        <ul>
+            <li>
+                <img src="image/product/daiwakat.jpg" alt="карушка карпова daiwa 6000"><br>
+                <a class="daiwa" title="daiwa" href="example.html">Катушка карпова Daiwa 6000</a><br>
+                <div class="daiwaprise">2100,<sup>00</sup> <small>грн</small></div>
+                <a class="daiwa" href="example.html">Купити</a>
+            </li>
+            <li>
+                <img src="image/product/carppronam.jpg" alt="Намет карповий CarpPro"><br>
+                <a class="carppronam" title="carppronam" href="example.html">Намет карповий CarpPro</a><br>
+                <div class="carppronam">6099,<sup>00</sup> <small>грн</small></div>
+                <a class="carppronam" href="example.html">Купити</a>
+            </li>
+            <li>
+                <img src="image/product/foxpovod.jpg" alt="Повідниця карпова FOX"><br>
+                <a class="foxpovod" title="foxpovod" href="example.html">Повідниця карпова FOX</a><br>
+                <div class="foxpovodprise">349,<sup>50</sup> <small>грн</small></div>
+                <a class="foxpovod" href="example.html">Купити</a>
+            </li>
+            <li>
+                <img src="image/product/foxsving.jpg" alt="Свінгери FOX"><br>
+                <a class="foxsving" title="foxsving" href="example.html">Свінгери для карпової ловлі FOX</a><br>
+                <div class="foxsving">4540,<sup>00</sup> <small>грн</small></div>
+                <a class="foxsving" href="example.html">Купити</a>
+            </li>
+            <li>
+                <img src="image/product/foxsvingkor.jpg" alt="Повідниця карпова FOX"><br>
+                <a class="foxsvingkor" title="foxsvingkor" href="example.html">Професійний набір свінгерів FOX</a><br>
+                <div class="foxsvingkorprise">7500,<sup>50</sup> <small>грн</small></div>
+                <a class="foxsvingkor" href="example.html">Купити</a>
+            </li>
+            <li>
+                <img src="image/product/Kordpov.jpg" alt="Повідниця карпова FOX"><br>
+                <a class="Kordpov" title="Kordpov" href="example.html">Професійна повідниця FOX</a><br>
+                <div class="Kordpovprise">6300,<sup>50</sup> <small>грн</small></div>
+                <a class="Kordpov" href="example.html">Купити</a>
+            </li>
+            <li>
+                <img src="image/product/rodpod.jpg" alt="Род-Под CARPPRO"><br>
+                <a class="rodpod" title="rodpod" href="example.html">Род-Под CARPPRO</a><br>
+                <div class="rodpodrise">4550,<sup>50</sup> <small>грн</small></div>
+                <a class="rodpod" href="example.html">Купити</a>
+            </li>
+            <li>
+                <img src="image/product/signalfox.jpg" alt="Сигналізатори FOX"><br>
+                <a class="signalfox" title="signalfox" href="example.html">Сигналізатори FOX</a><br>
+                <div class="signalfoxprise">1150,<sup>50</sup> <small>грн</small></div>
+                <a class="signalfox" href="example.html">Купити</a>
+            </li>
+            <li>
+                <img src="image/product/Foxsignal.jpg" alt="Сигналізатори FOX"><br>
+                <a class="Foxsignal" title="Foxsignal" href="example.html">Сигналізатори FOX</a><br>
+                <div class="Foxsignalprise">9990,<sup>00</sup> <small>грн</small></div>
+                <a class="Foxsignal" href="example.html">Купити</a>
+            </li>
+        </ul>
+    </article>
+    <footer>
+        <h2>Сторінкив соцмережах</h2>
+        <a href="https://vk.com/"><img src="image/vft/vk.png" alt="Вконтакті"></a><br>
+        <a href="https://www.facebook.com/"><img src="image/vft/facebook.png" alt="Фейсбук"></a><br>
+        <a href="https://twitter.com/"><img src="image/vft/twitter.png" alt="Твіттер"></a>
+        <p>Наші контакти </p>
+        <p> м.Львів вул.Чигиринська,13 кв.80 </p>
+        <p> (096) 630-20-87 </p>
+        <p> vipsanyok@mail.ru </p>
+        <p> Пн-Пт с 9-00 до 18-00 </p>
+        <p> Сб. с 9-00 до 17-00 </p>
+        <p> Нд-вихідний </p>
+        <iframe src=" " ></iframe>
+    </footer>
 </body>
+
 </html>
