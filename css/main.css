@@ -4,6 +4,7 @@
 
 body {
    max-width: 970px; 
+   margin: 0 auto; 
 }
 
 header {
@@ -15,10 +16,10 @@ section {
 }
 
 nav {
+    float: left;
     background-color: yellow;
-    position: absolute;
     width: 200px;
-    left: 0;
+    
 }
 
 
