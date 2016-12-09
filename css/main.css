@@ -1,5 +1,6 @@
 * {
    margin: 0; 
+   
 }
 
 body {
@@ -9,6 +10,7 @@ body {
 
 header {
     background-color:red;
+    
 }
 
 section {
