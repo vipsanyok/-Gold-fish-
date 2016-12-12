@@ -3,33 +3,58 @@
    
 }
 
+
 body {
-   max-width: 970px; 
+   max-width: 1200px; 
    margin: 0 auto; 
 }
-
+/*Заголовок*/
 header {
-    background-color:red;
+    background-image: url("../image/logo.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20%;
+    max-width: 970px;
+}
+header h1 {
+    font-size: 5rem;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    font-size: 70px;
     
 }
 
+/*Верхня навігаційна панель*/
 section {
     background-color: blue;
 }
-
+/*ліва навігаційна панель*/
 nav {
     float: left;
-    background-color: yellow;
+    background-color: ;
     width: 200px;
     
 }
-
+nav ul  {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+/*основна частина (средина)*/
 
 article {
     background-color: green;
     margin-left: 200px;
 }
-
+/*дно*/
 footer {
     background-color: purple;
 }
