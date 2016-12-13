@@ -18,26 +18,34 @@ header {
     align-items: center;
     justify-content: flex-start;
     padding-left: 20%;
-    max-width: 970px;
+    max-width: 1200px;
 }
-header h1 {
-    font-size: 5rem;
-    color: white;
-    position: absolute;
-    top: 20px;
-    left: 600px;
-    font-size: 70px;
+h1 {
+    margin-top: 1px;
+    margin-bottom: 400px;
+    font-size: 7rem;
+    color: #F1C40F;
+    text-shadow: 5px 4px 3px #FAD7A0;
     
 }
+.registred {
+    margin-top: 350px;
+    margin-bottom: 20px;
+    margin-right:20px;
+    margin-left: 90px;
 
+}
 /*Верхня навігаційна панель*/
 section {
     background-color: blue;
 }
+.form-wrapper {
+    margin-left: 920px;
+}
 /*ліва навігаційна панель*/
 nav {
     float: left;
-    background-color: ;
+    background-color:green ;
     width: 200px;
     
 }
