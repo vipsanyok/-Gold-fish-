@@ -1,70 +1,133 @@
 * {
-   margin: 0; 
-   
+    margin: 0;
 }
-
 
 body {
-   max-width: 1200px; 
-   margin: 0 auto; 
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 0.875em;
+    line-height: 1.6em;
+    background-color: #D5D8DC;
+
 }
+
+
 /*Заголовок*/
+
 header {
     background-image: url("../image/logo.jpg");
     background-position: center center;
     background-size: cover;
-    height: 500px;
+    height: 800px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 20%;
-    max-width: 1200px;
+    padding-left: 5%;
 }
-h1 {
-    margin-top: 1px;
-    margin-bottom: 400px;
-    font-size: 7rem;
-    color: #F1C40F;
-    text-shadow: 5px 4px 3px #FAD7A0;
-    
-}
-.registred {
-    margin-top: 350px;
-    margin-bottom: 20px;
-    margin-right:20px;
-    margin-left: 90px;
 
+header h1 {
+    font-size: 5rem;
+    color: white;
+    text-shadow: 5px 4px 3px #F1C40F;
 }
+
+.registred {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
 /*Верхня навігаційна панель*/
+
 section {
     background-color: blue;
 }
+
+section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+section ul li {
+    float: left;
+}
+
+section ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+section ul li a:hover:not(.activ) {
+    background-color: #111;
+}
+
+.activ {
+    background-color: #4CAF50;
+}
+
 .form-wrapper {
     margin-left: 920px;
 }
+
+
 /*ліва навігаційна панель*/
+
 nav {
     float: left;
-    background-color:green ;
+    background-color: yellow;
     width: 200px;
-    
+    height: 900px;
 }
-nav ul  {
-   list-style-type: none;
+
+nav ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
 }
+nav ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+nav ul li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
 /*основна частина (средина)*/
 
 article {
-    background-color: green;
+    background-color: #99A3A4;
     margin-left: 200px;
 }
+article .new1 {
+    border-style: solid;
+    
+}
+ 
+article .bye {
+     border-style: groove;
+     
+ }
+
 /*дно*/
+
 footer {
     background-color: purple;
 }
-
-
