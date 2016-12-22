@@ -30,11 +30,9 @@ header {
 }
 
 header h1 {
-    position: absolute;
+    position: flex;
     top: 2px;
-    right: 1000px;
-    width: 200px;
-    height: 100px;
+    height: 800px;
     font-size: 10rem;
     color: white;
     text-shadow: 5px 4px 3px #F1C40F;
@@ -134,32 +132,75 @@ article {
     margin-left: 200px;
 }
 
-article .new1 {
-    border-style: solid;
-}
 
-article .bye {
-    border-style: groove;
-}
 
-article a.bye1 {
-    display: inline-block;
-    padding: 15px 25px;
-    font-size: 22px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 9px #999;
-}
+/*article a.bye1 {*/
+/*    display: inline-block;*/
+/*    padding: 1px 2px;*/
+    
+/*    cursor: pointer;*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*    outline: none;*/
+/*    color: #fff;*/
+/*    background-color: #4CAF50;*/
+/*    border: none;*/
+/*    border-radius: 10px;*/
+/*    box-shadow: 1px #999;*/
+/*}*/
 
 
 /*дно*/
 
+/*footer {*/
+/*    background-color: purple;*/
+/*    column-count: 3;*/
+/*    height:220px;*/
+/*    display: flex;*/
+  
+/*}*/
 footer {
-    background-color: purple;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    margin: 15px 0;
+    padding: 10px 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    background-color: #B2BABB;
 }
+
+footer div {
+    border-right: 1px dotted #DADCE3;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 0 0 10px;
+    text-align: left;
+    vertical-align: top;
+    width: 380px;
+    zoom: 1;
+}
+/*.soc {*/
+/*    -webkit-flex: initial;*/
+/*    flex: initial;*/
+/*    width: 400px;*/
+/*    min-width: 100px;*/
+/*}*/
+.soc img{
+    height: 50px;
+    width: 50px;
+}
+
+/*.address {*/
+/*    -webkit-flex: initial;*/
+/*    flex: initial;*/
+/*    width: 400px;*/
+/*    min-width: 100px;*/
+/*}*/
+/*.maps {*/
+/*    -webkit-flex: initial;*/
+/*    flex: initial;*/
+/*    width: 400px;*/
+/*    min-width: 100px;*/
+/*}*/

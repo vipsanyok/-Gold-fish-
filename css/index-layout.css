@@ -1,0 +1,33 @@
+@media screen and (max-width: 720px) {
+    header {
+        height: 100px;        
+    }
+    header h1 {
+        font-size: 5rem;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    div {
+        flex-basis: 50%;
+    }
+
+    article {
+        flex-wrap: wrap;
+    }
+    main article {
+        order: 1;
+    }
+   nav {
+        order: 3;
+    }
+    section {
+        order: 2;
+    }
+    @media screen and (max-width: 450px) {
+    article div {
+        flex-basis: 100%;
+    }
+}
