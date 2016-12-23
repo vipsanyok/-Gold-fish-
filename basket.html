@@ -2,48 +2,50 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Goldfish</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/index.css">
+   <meta charset="UTF-8">
+   <title>Goldfish</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/basket.css">
+   <link href="css/index-layout.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1><strong>GoldFish</strong></h1>
-        <img src="image/корзина.jpg" alt="корзина для покупок"><br>
-        <p>ВХІД:</p>
-        <form action="action_page.php">
+   <header>
+      <h1><strong>GoldFish</strong></h1>
+      <img class="shoping" src="image/корзина.jpg" alt="корзина для покупок">
+      <div class="reg">
+         <p><h3>ВХІД:</h3></p>
+         <form class="registred" action="action_page.php">
             <label for="E-mail">E-mail:</label>
             <input type="email" name="email" id="E-mail" placeholder="E-mail">
-            <label for="password">E-mail:</label>
+            <label for="password">Password:</label>
             <input type="password" name="psw" id="password" placeholder="password">
-            <input type="submit">
+            <input type="submit"><br>
             <input type="checkbox" name="vehicle1" value="запам'ятати">Запам'ятати
-        </form>
-    </header>
+         </form>
+      </div>
+   </header>
 
-    <section>
-        <ul class="toolbar">
-            <li><a href="index.html">Головна</a></li>
-            <li><a href="shop.html">Магазин</a></li>
-        </ul>
-        <form class="form-wrapper">
-            <input type="text" id="search" placeholder="Пошук по сайту..." required>
-            <input type="submit" value="пошук" id="submit">
-        </form>
-    </section>
+   <section>
+      <ul class="toolbar">
+         <li><a class="activ" href="index.html">Головна</a></li>
+         <li><a href="shop.html">Магазин</a></li>
+      </ul>
+   </section>
 
-    <nav>
-        <ul class="toolbar1">
-            <li><a class="active" href="new.html">Новинки</a></li>
-            <li><a href="carp.html">Карпова ловля</a></li>
-        </ul><br>
-        <video src="video/fish.mp4" controls="controls" width="200"></video><br>
-        <p>Выберите дату: <input type="date" name="calendar">
-            <input type="submit" value="Отправить"></p>
-    </nav>
+   <nav>
+      <ul class="toolbar1">
+         <li><a class="active" href="new.html">Новинки</a></li>
+         <li><a href="carp.html">Карпова ловля</a></li>
+      </ul><br>
+      <video src="video/fish.mp4" controls="controls" width="200"></video><br>
+      <p>Выберите дату: <input type="date" name="calendar">
+         <input type="submit" value="Отправить"></p>
+   </nav>
 
     <article>
         <img src="image/product/daiwakat.jpg" alt="карушка карпова daiwa 6000"><br>
@@ -77,20 +79,29 @@
             </fieldset>
         </form>
     </article>
-    <footer>
-        <h2>Сторінкив соцмережах</h2>
-        <a href="https://vk.com/"><img src="image/vft/vk.png" alt="Вконтакті"></a><br>
-        <a href="https://www.facebook.com/"><img src="image/vft/facebook.png" alt="Фейсбук"></a><br>
-        <a href="https://twitter.com/"><img src="image/vft/twitter.png" alt="Твіттер"></a>
-        <p>Наші контакти </p>
-        <p> м.Львів вул.Чигиринська,13 кв.80 </p>
-        <p> (096) 630-20-87 </p>
-        <p> vipsanyok@mail.ru </p>
-        <p> Пн-Пт с 9-00 до 18-00 </p>
-        <p> Сб. с 9-00 до 17-00 </p>
-        <p> Нд-вихідний </p>
-        <iframe src=" "></iframe>
-    </footer>
+    
+   <footer>
+      <div class="soc">
+         <h4>Сторінкив соцмережах</h4>
+         <a href="https://vk.com/"><img src="image/vft/vk.png" alt="Вконтакті"></a><br>
+         <a href="https://www.facebook.com/"><img src="image/vft/facebook.png" alt="Фейсбук"></a><br>
+         <a href="https://twitter.com/"><img src="image/vft/twitter.png" alt="Твіттер"></a>
+      </div>
+      <div class="address">
+         <p>Наші контакти </p>
+         <p> м.Львів вул.Чигиринська,13 кв.80 </p>
+         <p> (096) 630-20-87 </p>
+         <p> vipsanyok@mail.ru </p>
+         <p> Пн-Пт с 9-00 до 18-00 </p>
+         <p> Сб. с 9-00 до 17-00 </p>
+         <p> Нд-вихідний </p>
+      </div>
+      <div class="maps">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2571.5981504538468!2d24.050752015333483!3d49.86879277939936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adce4b5dfa37d%3A0x3bd31359e9aefd8e!2z0LLRg9C70LjRhtGPINCn0LjQs9C40YDQuNC90YHRjNC60LAsIDEzLCDQm9GM0LLRltCyLCDQm9GM0LLRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sua!4v1482529716388"
+            width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+   </footer>
 </body>
+
 
 </html>

@@ -1,0 +1,14 @@
+
+.product-img img {
+    height: 200px;
+    width: 200px;
+}
+
+.container h2 {
+    font-size: 15px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    max-height: 400px; 
+}

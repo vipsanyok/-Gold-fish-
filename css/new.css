@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+article h2 {
+   text-align:  center;
+   margin-top: 0px;
+}
+article   img {
+    height: 200px;
+    width: 200px;
+}
+div .conteiner {
+    width: 900px
+}

@@ -1,0 +1,36 @@
+article h2 {
+   text-align:  center;
+   margin-top: 0px;
+}* {
+    margin: 0;
+    padding: 0;
+}
+
+div .item img {
+    height: 200px;
+    width: 200px;
+}
+.product-img img {
+    height: 200px;
+    width: 200px;
+}
+
+.container h2 {
+    font-size: 15px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    max-height: 400px; 
+}
+#myCarousel {
+    max-width:1000px;
+    margin: 0 auto;
+}
+.container1 {
+    width: 1000px;
+    padding-right: 1px;
+    padding-left: 1px;
+    margin-right: auto;
+    margin-left: auto;
+}
